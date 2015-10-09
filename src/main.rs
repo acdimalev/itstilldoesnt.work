@@ -9,5 +9,5 @@ fn main() {
     let mut html = File::create("test.html").unwrap();
     let mut s = String::new();
     md.read_to_string(&mut s).unwrap();
-    html.write_fmt(format_args!("{}", markdown::to_html(&s))).unwrap();
+    html.write_all(&markdown::to_html(&s).into_bytes()).unwrap();
 }
