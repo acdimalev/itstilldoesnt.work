@@ -8,4 +8,4 @@ deploy:
   secret_access_key: $secret_access_key
   bucket: $bucket
   skip_cleanup: true
-  local_dir: test.html
+  local_dir: html
