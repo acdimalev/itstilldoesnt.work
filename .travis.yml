@@ -1,1 +1,4 @@
-language: perl
+language: rust
+script:
+- cargo run
+- cat test.html

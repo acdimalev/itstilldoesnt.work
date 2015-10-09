@@ -1,0 +1,7 @@
+[package]
+name = "itstilldoesnt-dot-work"
+version = "0.1.0"
+authors = ["Jamin <jamin@bitlag.net>"]
+
+[dependencies]
+markdown = "*"
